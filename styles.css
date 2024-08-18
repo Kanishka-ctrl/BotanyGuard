@@ -1,0 +1,233 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; /* Increased padding for wider navbar */
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    max-width: 100%; /* Ensures the navbar takes up full width */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 30px; /* Increased space between the links */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 18px; /* Increased font size for better readability */
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #000;
+}
+
+.contact-btn {
+    border: 2px solid #000;
+    padding: 10px 20px; /* Increased padding for a more prominent button */
+    border-radius: 5px;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Ensure that the IDs match the section class names */
+section.home-section,
+section.about-section,
+section.services-section,
+section.contact-section {
+    padding: 60px 20px;
+    /* Add your additional styles for sections here */
+}
+
+
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero-section {
+    background-image: url('735728.jpg'); /* Background image for hero section */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+
+
+
+.hero-content {
+    text-align: left;
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.hero-content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #45a049;
+}
+
+/* Revolutionizing Crop Health Section */
+.crop-health-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: white;
+}
+
+.crop-health-section .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.crop-health-section .text-content {
+    max-width: 600px;
+}
+
+.crop-health-section .text-content h3 {
+    color: #4CAF50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.crop-health-section .text-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.crop-health-section .text-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.crop-health-section .text-content .link {
+    font-size: 18px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.crop-health-section .image-content img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Comprehensive Agricultural Solutions Section */
+.agricultural-solutions-section {
+    padding: 100px 50px;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.agricultural-solutions-section h3 {
+    color: #4CAF50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.agricultural-solutions-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    text-align: left;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+
+.service-card h4 {
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+}
+
+.service-card p {
+    font-size: 16px;
+    margin: 0 20px 20px;
+    color: #555;
+}
